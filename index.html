@@ -4,20 +4,25 @@
 
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
-  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-  <title>Bootstrap Portfolio</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap Portfolio</title>
 
-  <!-- Bootstrap -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <!-- font -->
-  <link href="https://fonts.googleapis.com/css?family=Playball|Roboto&display=swap" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- font -->
+    <!--
+        <link href="https://fonts.googleapis.com/css?family=Playball|Roboto&display=swap" rel="stylesheet">
+    -->
 
-  <!--  CSS file -->
-  <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://www.googleapis.com/webfonts/v1/webfonts?key=AIzaSyD8ko9xrI3I_eGZki8E5PTNP0_G7x9ET2o" />
+
+    <!--  YOUR-API-KEY : AIzaSyD8ko9xrI3I_eGZki8E5PTNP0_G7x9ET2o -->
+    <!--  CSS file -->
+    <link rel="stylesheet" href="assets/css/style.css">
 
 </head>
 
@@ -28,7 +33,7 @@
     <div class="header">
 
         <!-- Nav bar-->
-        <div class="d-flex p-2 border-bottom">
+        <div class="d-flex p-2">
             <!-- <div class="d-flex flex-column flex-md-row align-items-center px-md-4 mb-3 border-bottom shadow-sm"> -->
             <h2 class="my-0 mr-md-auto">Christine Lee</h2>
             <nav class="my-2 my-md-0 mr-md-3">
@@ -44,14 +49,23 @@
         <div class="jumbotron">
 
             <br><br><br>
+            <!--
+        <h4 class="self-exp text-center">
+        Seasoned Software Engineer with more than eight years of experience in
+        financial/brokerage firms,<br>
+        broad understanding of complex financial products, and the Bachelor of Science degree in Computer Science.<br>
+        Possessing unparalleled passion for using advanced technologies to create fully functional applications and
+        programs,<br>
+        as well as designing solution from customers’ eyes.
+        </h4>
+
+    -->
+
             <h4 class="self-exp text-center">
-                Seasoned Software Engineer with more than eight years of experience in
-                financial/brokerage firms,<br>
-                broad understanding of complex financial products, and the Bachelor of Science degree in Computer Science.<br>
-                Possessing unparalleled passion for using advanced technologies to create fully functional applications and
-                programs,<br>
-                as well as designing solution from customers’ eyes.
+                With more than eight years in software engineering and a background in finance,
+                <br>I love using technology to craft meaningful, practical solutions that make a difference for users.
             </h4>
+
 
         </div>
 
@@ -68,7 +82,7 @@
                      <div class="col-md-3">
                   <div class="card mb-3 shadow-sm">
 
-                    <a href="https://safe-inlet-12518.herokuapp.com/">
+                    <a href="advanced-ilka-dewyoyo.koyeb.app">
                       <img class="card-img-top" src="assets/images/allTheNews.png" alt="Card image cap">
                     </a>
 
@@ -78,9 +92,8 @@
                             Lets users scrape news articles from NPR.com. Users view and leave comments on
                             saved articles
                         </p>
-                        <p class="card-text" style="color:red;">
-                            Since Heroku stopped providing a free tier, I am looking for alternatives.
-                            But, still, this program can be downloaded from github.
+                        <p class="card-text" style="color: darkgreen; font-weight: bold;">
+                            Deployed by Koyeb
                         </p>
 
                     </div>
@@ -159,16 +172,16 @@
                             <div class="card-body">
                                 <h5 class="card-title">Friend-Finder</h5>
                                 <p class="card-text">A compatibility-based "FriendFinder" application - basically a dating app</p>
-                                <p class="card-text" style="color:darkgreen;">
+                                <p class="card-text" style="color: darkgreen; font-weight: bold;">
                                     Deployed by Koyeb
                                 </p>
                             </div>
-                            <p class="tech-text">Node.js and Express</p>
+                            <p class="tech-text">Node.js, Express and API</p>
                         </div>
                     </div>
                     <div class="col-md-3">
                         <div class="card mb-3 shadow-sm">
-                            <a href="https://agile-wildwood-80398.herokuapp.com/">
+                            <a href="huge-camile-dewyoyo.koyeb.app/">
                                 <img class="card-img-top" src="assets/images/eatDaBurger.png" alt="Card image cap">
 
                             </a>
@@ -279,70 +292,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <!-- 4th row -->
-                <div class="row mt-3">
-                    <div class="col-md-3">
-                        <div class="card mb-3 shadow-sm">
-                            <a href="https://dewyoyo.github.io/GIPHY-API/">
-                                <img class="card-img-top" src="assets/images/giphyAPI.png" alt="Card image cap">
-
-                            </a>
-                            <div class="card-body">
-                                <h5 class="card-title">GIPHY-API</h5>
-                                <p class="card-text">
-                                    An app that use the GIPHY API to make a dynamic web page that populates with gifs
-                                    of your choice
-                                </p>
-
-                            </div>
-                            <p class="tech-text">GIPHY API, JavaScript and jQuery</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card mb-3 shadow-sm">
-                            <a href="https://dewyoyo.github.io/TriviaGame/">
-                                <img class="card-img-top" src="assets/images/triviaGame.png" alt="Card image cap">
-
-                            </a>
-                            <div class="card-body">
-                                <h5 class="card-title">TriviaGame</h5>
-                                <p class="card-text">Fun trivia quizes app</p>
-
-                            </div>
-                            <p class="tech-text">Javascript, HTML and css</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card mb-3 shadow-sm">
-                            <a href="https://dewyoyo.github.io/unit-4-game/">
-                                <img class="card-img-top" src="assets/images/starWarsGame.png" alt="Card image cap">
-
-                            </a>
-                            <div class="card-body">
-                                <h5 class="card-title">unit-4-game</h5>
-                                <p class="card-text">A simple game by selecting game-player</p>
-
-                            </div>
-                            <p class="tech-text">Javascript, HTML and css</p>
-                        </div>
-                    </div>
-                    <div class="col-md-3">
-                        <div class="card mb-3 shadow-sm">
-                            <a href="https://dewyoyo.github.io/Word-Guess-Game/">
-                                <img class="card-img-top" src="assets/images/wordGuessGame.png" alt="Card image cap">
-
-                            </a>
-                            <div class="card-body">
-                                <h5 class="card-title">Word-Guess-Game</h5>
-                                <p class="card-text">A Hangman game</p>
-
-                            </div>
-                            <p class="tech-text">Javascript, HTML and css</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
 
         </div>
     </div>

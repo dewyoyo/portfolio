@@ -2,50 +2,63 @@
 html, body {
     height: 100%;
     width: 100%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: whitesmoke;
     background-color: #ffffff
 }
 
 .header {
     width: 100%;
-    color: whitesmoke;
-    /* color: white; */
+    color: white;
+    background-color: #EEEEEE;
     /* height:20rem; */
+    /*
+        box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
+    */
+    
 }
 .d-flex {
-    color: whitesmoke;
+    /*
+    color: white;
     background-color: #2c2c2c;
+    background-color: #ffffff;
+    */
+    color: black;
     position: fixed;
     z-index: 1;
     width: 100%;
+    /*
     -webkit-box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
     box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
+    */
 }
 
 .my-0 {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Brush Script MT', sans-serif;
+    line-height:  normal;
 }
 
 .my-2 {
     padding : 0.5rem;
 }
 .jumbotron {
-    color: whitesmoke;
-    background-image: url("../images/night_work.jpg");
+    /* color: whitesmoke;*/
+    color: black;
+    //background-image: url("../images/night_work.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 1rem;
-    /* text-align: center; */
+    /* text-align: center;
     -webkit-box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
     box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
+    */
     /* color: #fff;
     font-size: 2em;
     font-weight: bold;
     z-index: 99; */
     /* white-space: nowrap; */
     /* opacity: 0.5; */
-    background-color: lightgray;
+    background-color: white;
     height: 25rem;
     text-align: center;
     animation: fadein 5s;
@@ -54,6 +67,8 @@ html, body {
     -o-animation: fadein 5s; /* Opera */
 }
 
+
+/*
 @keyframes fadein {
     from {
         opacity: 0;
@@ -63,8 +78,10 @@ html, body {
         opacity: 1;
     }
 }
+*/
 
-@-moz-keyframes fadein { /* Firefox */
+/* Firefox
+@-moz-keyframes fadein { 
     from {
         opacity: 0;
     }
@@ -73,26 +90,31 @@ html, body {
         opacity: 1;
     }
 }
+*/
 
-@-webkit-keyframes fadein { /* Safari and Chrome */
-    from {
-        opacity: 0;
-    }
+/* Safari and Chrome
+@-webkit-keyframes fadein {
+from {
+    opacity: 0;
+}
 
     to {
         opacity: 1;
     }
 }
+*/
 
-@-o-keyframes fadein { /* Opera */
-    from {
-        opacity: 0;
-    }
+/* Opera
+@-o-keyframes fadein { 
+from {
+    opacity: 0;
+}
 
     to {
         opacity: 1;
     }
 }
+*/
 
 .self-exp {
     font-family: 'Playball';
@@ -115,18 +137,24 @@ html, body {
 }
 .card {
     height: 25rem;
+    border-radius: 25px; /* Rounds all corners */
+    box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
 }
 .card-img-top {
     border: #ffffff 1rem;
+    padding : 20px;
+    border-top-left-radius: 25px; /* Adjust value for desired roundness */
+    border-top-right-radius: 25px; /* Adjust value for desired roundness */
 }
 .card-body {
     color: black;
     border: #ffffff 1rem;
-    font-size: 0.9rem;
+    font-size: 0.7rem;
 }
 
 .tech-text {
     color: whitesmoke;
+    font-size: 0.7rem;
     /* border: #ffffff 1rem; */
     /* vertical-align: -100%; */
     position: absolute;
@@ -136,4 +164,8 @@ html, body {
     padding: 0 1rem;
     margin: 0;
     background-color: #666666;
+    border-bottom-left-radius: 25px; /* Adjust value for desired roundness */
+    border-bottom-right-radius: 25px; /* Adjust value for desired roundness */
+    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Linear gradient */
+    padding: 10px;
 }
