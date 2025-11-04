@@ -163,7 +163,7 @@ from {
     bottom: 0px;
     height: 3rem;
     width: 100%;
-    padding: 0 1rem;
+    padding: 5px 1rem;
     margin: 0;
     background-color: #666666;
     border-bottom-left-radius: 25px; /* Adjust value for desired roundness */
