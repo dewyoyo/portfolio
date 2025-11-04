@@ -138,7 +138,9 @@ from {
 .card {
     height: 25rem;
     border-radius: 25px; /* Rounds all corners */
-    box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22);
+    /* box-shadow: 0 14px 28px rgba(0,0,0,.25), 0 10px 10px rgba(0,0,0,.22); */
+    box-shadow: 10px 10px 20px gray;
+
 }
 .card-img-top {
     border: #ffffff 1rem;
@@ -148,7 +150,7 @@ from {
 }
 .card-body {
     color: black;
-    border: #ffffff 1rem;
+    /* border: #ffffff 1rem; */
     font-size: 0.7rem;
 }
 
@@ -167,5 +169,5 @@ from {
     border-bottom-left-radius: 25px; /* Adjust value for desired roundness */
     border-bottom-right-radius: 25px; /* Adjust value for desired roundness */
     background: linear-gradient(to right, #ff7e5f, #feb47b); /* Linear gradient */
-    padding: 10px;
+    box-shadow: 10px 10px 20px gray;
 }
