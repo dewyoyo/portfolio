@@ -168,6 +168,6 @@ from {
     background-color: #666666;
     border-bottom-left-radius: 25px; /* Adjust value for desired roundness */
     border-bottom-right-radius: 25px; /* Adjust value for desired roundness */
-    background: linear-gradient(to right, #ff7e5f, #feb47b); /* Linear gradient */
+    background: linear-gradient(to right, #00563B, #1CAC78); /* Linear gradient background: linear-gradient(to right, #ff7e5f, #feb47b);*/
     box-shadow: 1px 1px 2px gray;
 }
